@@ -42,7 +42,7 @@ app.get('/detail', function (req, res) {
 app.get("/ipn", function (req, res) {
   console.log(req);
   console.log(res);
-  res.send("Received IPN");
+  res.json({res: req.body});
 });
 
 app.get("/success", function (req, res) {
