@@ -52,7 +52,7 @@ function data({ title, img, price, unit }, host) {
             ],
             installments: 6
         },
-        notification_url: `${host}ipn`,
+        notification_url: `https://hookb.in/jeedzwe0bos9dlMMdknl`,
         external_reference: "sala.eliezer@gmail.com"
     };
     return preference
