@@ -47,7 +47,7 @@ app.get("/ipn", function (req, res) {
 
 app.get("/success", function (req, res) {
   console.log(req);
-  res.json("success");
+  res.render("success", req.query);
 });
 
 app.get("/pending", function (req, res) {
